@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Password/Password.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SingletonDemo/SingletonDemo.xcodeproj">
    </FileRef>
    <FileRef
