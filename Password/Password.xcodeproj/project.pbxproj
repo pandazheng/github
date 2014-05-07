@@ -26,6 +26,8 @@
 		A4134B6A1917DE2300833B10 /* iflame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4134B651917DE2300833B10 /* iflame.jpg */; };
 		A4134B6B1917DE2300833B10 /* SafeBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A4134B661917DE2300833B10 /* SafeBack.png */; };
 		A4134B6C1917DE2300833B10 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A4134B671917DE2300833B10 /* whiteButton.png */; };
+		A4134B6E1918875B00833B10 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134B6D1918875B00833B10 /* libsqlite3.0.dylib */; };
+		A4134B701918876500833B10 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134B6F1918876500833B10 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		A4134B651917DE2300833B10 /* iflame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iflame.jpg; sourceTree = "<group>"; };
 		A4134B661917DE2300833B10 /* SafeBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafeBack.png; sourceTree = "<group>"; };
 		A4134B671917DE2300833B10 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		A4134B6D1918875B00833B10 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A4134B6F1918876500833B10 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4134B701918876500833B10 /* libsqlite3.dylib in Frameworks */,
+				A4134B6E1918875B00833B10 /* libsqlite3.0.dylib in Frameworks */,
 				A4134B301917DD9200833B10 /* CoreGraphics.framework in Frameworks */,
 				A4134B321917DD9200833B10 /* UIKit.framework in Frameworks */,
 				A4134B2E1917DD9200833B10 /* Foundation.framework in Frameworks */,
@@ -111,6 +117,8 @@
 		A4134B2C1917DD9200833B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4134B6F1918876500833B10 /* libsqlite3.dylib */,
+				A4134B6D1918875B00833B10 /* libsqlite3.0.dylib */,
 				A4134B2D1917DD9200833B10 /* Foundation.framework */,
 				A4134B2F1917DD9200833B10 /* CoreGraphics.framework */,
 				A4134B311917DD9200833B10 /* UIKit.framework */,

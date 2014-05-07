@@ -17,7 +17,7 @@
 
 @implementation ViewController
 
-@synthesize passwordLength,phoneticPassword,emailPasswordButton,createPassword;
+@synthesize passwordLength,phoneticPassword,emailPasswordButton,createPassword,password;
 
 - (void)viewDidLoad
 {
@@ -40,6 +40,39 @@
     [createPassword setTitleColor:[UIColor blackColor] forState:UIControlStateSelected];
     [emailPasswordButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
     [emailPasswordButton setTitleColor:[UIColor blackColor] forState:UIControlStateSelected];
+    
+    //初始化数据库文件
+    //根据路径创建数据库并创建一个表password(id password)
+    NSString *docsDir;
+    NSArray  *dirPaths;
+    
+    //得到当前目录
+    dirPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    
+    docsDir = [dirPaths objectAtIndex:0];
+    
+    // Build the path to the database file
+    databasePath = [[NSString alloc] initWithString: [docsDir stringByAppendingPathComponent: @"contacts.db"]];
+    
+    NSFileManager *filemgr = [NSFileManager defaultManager];
+    
+    if ([filemgr fileExistsAtPath:databasePath] == NO)
+    {
+        const char *dbpath = [databasePath UTF8String];
+        if (sqlite3_open(dbpath, &contactDB) == SQLITE_OK)
+        {
+            char *errMsg;
+            const char *sql_stmt = "CREATE TABLE IF NOT EXISTS PASSWORDS(ID INTEGER PRIMARY KEY AUTOINCREMENT,PASSWORD TEXT)";
+            if (sqlite3_exec(contactDB, sql_stmt, NULL, NULL, &errMsg) != SQLITE_OK)
+            {
+                NSLog(@"创建表失败!");
+            }
+        }
+        else
+        {
+            NSLog(@"创建/打开数据库失败");
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -191,7 +224,7 @@
 
 - (IBAction) emailPassword
 {
-    NSLog(@"email password!");
+/*    NSLog(@"email password!");
     NSString *urlString = @"mailto:?subject=Password%20Generator&body=";
     urlString = [urlString stringByAppendingString:@"Password: %20"];
     urlString = [urlString stringByAppendingString:password.text];
@@ -203,7 +236,30 @@
     }
     
     NSURL *mailUrl = [NSURL URLWithString:urlString];
-    [[UIApplication sharedApplication] openURL:mailUrl];
+    [[UIApplication sharedApplication] openURL:mailUrl];*/
+    NSLog(@"Save password to Data");
+    sqlite3_stmt *statement;
+    
+    const char *dbpath = [databasePath UTF8String];
+    
+    if (sqlite3_open(dbpath, &contactDB) == SQLITE_OK)
+    {
+        NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO PASSWORDS(password) VALUES(\"%@\")",password.text];
+        const char *insert_stmt = [insertSQL UTF8String];
+        sqlite3_prepare_v2(contactDB, insert_stmt, -1, &statement, NULL);
+        if (sqlite3_step(statement) == SQLITE_DONE)
+        {
+            NSLog(@"已存储到数据库");
+            password.text = @"";
+        }
+        else
+        {
+            NSLog(@"保存失败!");
+        }
+        
+        sqlite3_finalize(statement);
+        sqlite3_close(contactDB);
+    }
 }
 
 @end

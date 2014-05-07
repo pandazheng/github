@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4134E12191A517D00833B10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134E11191A517D00833B10 /* Foundation.framework */; };
+		A4134E14191A517D00833B10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134E13191A517D00833B10 /* CoreGraphics.framework */; };
+		A4134E16191A517D00833B10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134E15191A517D00833B10 /* UIKit.framework */; };
+		A4134E1C191A517D00833B10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4134E1A191A517D00833B10 /* InfoPlist.strings */; };
+		A4134E1E191A517D00833B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4134E1D191A517D00833B10 /* main.m */; };
+		A4134E22191A517D00833B10 /* UICodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4134E21191A517D00833B10 /* UICodeAppDelegate.m */; };
+		A4134E24191A517D00833B10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4134E23191A517D00833B10 /* Images.xcassets */; };
+		A4134E2B191A517D00833B10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134E2A191A517D00833B10 /* XCTest.framework */; };
+		A4134E2C191A517D00833B10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134E11191A517D00833B10 /* Foundation.framework */; };
+		A4134E2D191A517D00833B10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4134E15191A517D00833B10 /* UIKit.framework */; };
+		A4134E35191A517D00833B10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4134E33191A517D00833B10 /* InfoPlist.strings */; };
+		A4134E37191A517D00833B10 /* UINavViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4134E36191A517D00833B10 /* UINavViewControllerTests.m */; };
+		A4134E42191A519C00833B10 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4134E41191A519C00833B10 /* MyViewController.m */; };
+		A4134E45191A52EA00833B10 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4134E44191A52EA00833B10 /* LLViewController.m */; };
+		A4134E48191A52FB00833B10 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4134E47191A52FB00833B10 /* MMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4134E2E191A517D00833B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4134E06191A517C00833B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4134E0D191A517D00833B10;
+			remoteInfo = UINavViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4134E0E191A517D00833B10 /* UINavViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4134E11191A517D00833B10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4134E13191A517D00833B10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4134E15191A517D00833B10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4134E19191A517D00833B10 /* UINavViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavViewController-Info.plist"; sourceTree = "<group>"; };
+		A4134E1B191A517D00833B10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4134E1D191A517D00833B10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4134E1F191A517D00833B10 /* UINavViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavViewController-Prefix.pch"; sourceTree = "<group>"; };
+		A4134E20191A517D00833B10 /* UICodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICodeAppDelegate.h; sourceTree = "<group>"; };
+		A4134E21191A517D00833B10 /* UICodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICodeAppDelegate.m; sourceTree = "<group>"; };
+		A4134E23191A517D00833B10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4134E29191A517D00833B10 /* UINavViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4134E2A191A517D00833B10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4134E32191A517D00833B10 /* UINavViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		A4134E34191A517D00833B10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4134E36191A517D00833B10 /* UINavViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavViewControllerTests.m; sourceTree = "<group>"; };
+		A4134E40191A519C00833B10 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		A4134E41191A519C00833B10 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		A4134E43191A52EA00833B10 /* LLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
+		A4134E44191A52EA00833B10 /* LLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
+		A4134E46191A52FB00833B10 /* MMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		A4134E47191A52FB00833B10 /* MMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4134E0B191A517D00833B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4134E14191A517D00833B10 /* CoreGraphics.framework in Frameworks */,
+				A4134E16191A517D00833B10 /* UIKit.framework in Frameworks */,
+				A4134E12191A517D00833B10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4134E26191A517D00833B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4134E2B191A517D00833B10 /* XCTest.framework in Frameworks */,
+				A4134E2D191A517D00833B10 /* UIKit.framework in Frameworks */,
+				A4134E2C191A517D00833B10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4134E05191A517C00833B10 = {
+			isa = PBXGroup;
+			children = (
+				A4134E17191A517D00833B10 /* UINavViewController */,
+				A4134E30191A517D00833B10 /* UINavViewControllerTests */,
+				A4134E10191A517D00833B10 /* Frameworks */,
+				A4134E0F191A517D00833B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4134E0F191A517D00833B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4134E0E191A517D00833B10 /* UINavViewController.app */,
+				A4134E29191A517D00833B10 /* UINavViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4134E10191A517D00833B10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4134E11191A517D00833B10 /* Foundation.framework */,
+				A4134E13191A517D00833B10 /* CoreGraphics.framework */,
+				A4134E15191A517D00833B10 /* UIKit.framework */,
+				A4134E2A191A517D00833B10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4134E17191A517D00833B10 /* UINavViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4134E20191A517D00833B10 /* UICodeAppDelegate.h */,
+				A4134E21191A517D00833B10 /* UICodeAppDelegate.m */,
+				A4134E40191A519C00833B10 /* MyViewController.h */,
+				A4134E41191A519C00833B10 /* MyViewController.m */,
+				A4134E43191A52EA00833B10 /* LLViewController.h */,
+				A4134E44191A52EA00833B10 /* LLViewController.m */,
+				A4134E46191A52FB00833B10 /* MMViewController.h */,
+				A4134E47191A52FB00833B10 /* MMViewController.m */,
+				A4134E23191A517D00833B10 /* Images.xcassets */,
+				A4134E18191A517D00833B10 /* Supporting Files */,
+			);
+			path = UINavViewController;
+			sourceTree = "<group>";
+		};
+		A4134E18191A517D00833B10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4134E19191A517D00833B10 /* UINavViewController-Info.plist */,
+				A4134E1A191A517D00833B10 /* InfoPlist.strings */,
+				A4134E1D191A517D00833B10 /* main.m */,
+				A4134E1F191A517D00833B10 /* UINavViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4134E30191A517D00833B10 /* UINavViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4134E36191A517D00833B10 /* UINavViewControllerTests.m */,
+				A4134E31191A517D00833B10 /* Supporting Files */,
+			);
+			path = UINavViewControllerTests;
+			sourceTree = "<group>";
+		};
+		A4134E31191A517D00833B10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4134E32191A517D00833B10 /* UINavViewControllerTests-Info.plist */,
+				A4134E33191A517D00833B10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4134E0D191A517D00833B10 /* UINavViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4134E3A191A517D00833B10 /* Build configuration list for PBXNativeTarget "UINavViewController" */;
+			buildPhases = (
+				A4134E0A191A517D00833B10 /* Sources */,
+				A4134E0B191A517D00833B10 /* Frameworks */,
+				A4134E0C191A517D00833B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UINavViewController;
+			productName = UINavViewController;
+			productReference = A4134E0E191A517D00833B10 /* UINavViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4134E28191A517D00833B10 /* UINavViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4134E3D191A517D00833B10 /* Build configuration list for PBXNativeTarget "UINavViewControllerTests" */;
+			buildPhases = (
+				A4134E25191A517D00833B10 /* Sources */,
+				A4134E26191A517D00833B10 /* Frameworks */,
+				A4134E27191A517D00833B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4134E2F191A517D00833B10 /* PBXTargetDependency */,
+			);
+			name = UINavViewControllerTests;
+			productName = UINavViewControllerTests;
+			productReference = A4134E29191A517D00833B10 /* UINavViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4134E06191A517C00833B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UICode;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "panda zheng";
+				TargetAttributes = {
+					A4134E28191A517D00833B10 = {
+						TestTargetID = A4134E0D191A517D00833B10;
+					};
+				};
+			};
+			buildConfigurationList = A4134E09191A517C00833B10 /* Build configuration list for PBXProject "UINavViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4134E05191A517C00833B10;
+			productRefGroup = A4134E0F191A517D00833B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4134E0D191A517D00833B10 /* UINavViewController */,
+				A4134E28191A517D00833B10 /* UINavViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4134E0C191A517D00833B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4134E1C191A517D00833B10 /* InfoPlist.strings in Resources */,
+				A4134E24191A517D00833B10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4134E27191A517D00833B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4134E35191A517D00833B10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4134E0A191A517D00833B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4134E48191A52FB00833B10 /* MMViewController.m in Sources */,
+				A4134E45191A52EA00833B10 /* LLViewController.m in Sources */,
+				A4134E42191A519C00833B10 /* MyViewController.m in Sources */,
+				A4134E1E191A517D00833B10 /* main.m in Sources */,
+				A4134E22191A517D00833B10 /* UICodeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4134E25191A517D00833B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4134E37191A517D00833B10 /* UINavViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4134E2F191A517D00833B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4134E0D191A517D00833B10 /* UINavViewController */;
+			targetProxy = A4134E2E191A517D00833B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4134E1A191A517D00833B10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4134E1B191A517D00833B10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4134E33191A517D00833B10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4134E34191A517D00833B10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4134E38191A517D00833B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4134E39191A517D00833B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4134E3B191A517D00833B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINavViewController/UINavViewController-Prefix.pch";
+				INFOPLIST_FILE = "UINavViewController/UINavViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4134E3C191A517D00833B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINavViewController/UINavViewController-Prefix.pch";
+				INFOPLIST_FILE = "UINavViewController/UINavViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4134E3E191A517D00833B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UINavViewController.app/UINavViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINavViewController/UINavViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UINavViewControllerTests/UINavViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4134E3F191A517D00833B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UINavViewController.app/UINavViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINavViewController/UINavViewController-Prefix.pch";
+				INFOPLIST_FILE = "UINavViewControllerTests/UINavViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4134E09191A517C00833B10 /* Build configuration list for PBXProject "UINavViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4134E38191A517D00833B10 /* Debug */,
+				A4134E39191A517D00833B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4134E3A191A517D00833B10 /* Build configuration list for PBXNativeTarget "UINavViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4134E3B191A517D00833B10 /* Debug */,
+				A4134E3C191A517D00833B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4134E3D191A517D00833B10 /* Build configuration list for PBXNativeTarget "UINavViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4134E3E191A517D00833B10 /* Debug */,
+				A4134E3F191A517D00833B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4134E06191A517C00833B10 /* Project object */;
+}
