@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4134D8C191A495100833B10"
-               BuildableName = "UITableView.app"
-               BlueprintName = "UITableView"
-               ReferencedContainer = "container:UITableView.xcodeproj">
+               BlueprintIdentifier = "A47FF42E191C9BE9007A5D47"
+               BuildableName = "FoundationDemo"
+               BlueprintName = "FoundationDemo"
+               ReferencedContainer = "container:FoundationDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4134DA7191A495200833B10"
-               BuildableName = "UITableViewTests.xctest"
-               BlueprintName = "UITableViewTests"
-               ReferencedContainer = "container:UITableView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A41F46E2191DDC8C0011EA30"
-               BuildableName = "TableViewTests.xctest"
-               BlueprintName = "TableViewTests"
-               ReferencedContainer = "container:../TableView/TableView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4134D8C191A495100833B10"
-            BuildableName = "UITableView.app"
-            BlueprintName = "UITableView"
-            ReferencedContainer = "container:UITableView.xcodeproj">
+            BlueprintIdentifier = "A47FF42E191C9BE9007A5D47"
+            BuildableName = "FoundationDemo"
+            BlueprintName = "FoundationDemo"
+            ReferencedContainer = "container:FoundationDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -71,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4134D8C191A495100833B10"
-            BuildableName = "UITableView.app"
-            BlueprintName = "UITableView"
-            ReferencedContainer = "container:UITableView.xcodeproj">
+            BlueprintIdentifier = "A47FF42E191C9BE9007A5D47"
+            BuildableName = "FoundationDemo"
+            BlueprintName = "FoundationDemo"
+            ReferencedContainer = "container:FoundationDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -89,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4134D8C191A495100833B10"
-            BuildableName = "UITableView.app"
-            BlueprintName = "UITableView"
-            ReferencedContainer = "container:UITableView.xcodeproj">
+            BlueprintIdentifier = "A47FF42E191C9BE9007A5D47"
+            BuildableName = "FoundationDemo"
+            BlueprintName = "FoundationDemo"
+            ReferencedContainer = "container:FoundationDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

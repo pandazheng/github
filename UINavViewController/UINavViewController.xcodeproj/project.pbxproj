@@ -458,6 +458,7 @@
 				A4134E3C191A517D00833B10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4134E3D191A517D00833B10 /* Build configuration list for PBXNativeTarget "UINavViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +467,7 @@
 				A4134E3F191A517D00833B10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TableViewDemo/TableViewDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewOne2/TableViewOne2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewOne/TableViewOne.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewGroup3/TableViewGroup3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewGroup2/TableViewGroup2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewGroup/TableViewGroup.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FoundationDemo/FoundationDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PassValueInTwoViewController/PassValueInTwoViewController.xcodeproj">
    </FileRef>
    <FileRef

@@ -20,6 +20,14 @@ int main(int argc, const char * argv[])
         NSLog(@"%@",str);
         
         NSLog(@"Hello, World!");
+        
+        
+        NSString *str1 = @"test";
+        NSString *str2 = @"test";
+        if ([str1 isEqualToString:str2])
+        {
+            NSLog(@"两个字符串相等");
+        }
     }
     return 0;
 }
