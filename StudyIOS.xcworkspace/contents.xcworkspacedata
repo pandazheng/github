@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DelegateDemo/DelegateDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ScrollViewDemo2/ScrollViewDemo2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ScrollViewDemo/ScrollViewDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TableViewDemo/TableViewDemo.xcodeproj">
    </FileRef>
    <FileRef

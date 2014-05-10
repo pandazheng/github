@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4134D4E191A466C00833B10"
-               BuildableName = "UIScrollView.app"
-               BlueprintName = "UIScrollView"
-               ReferencedContainer = "container:UIScrollView.xcodeproj">
+               BlueprintIdentifier = "A44809EE191DFD7000BDC252"
+               BuildableName = "DelegateDemo"
+               BlueprintName = "DelegateDemo"
+               ReferencedContainer = "container:DelegateDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4134D69191A466C00833B10"
-               BuildableName = "UIScrollViewTests.xctest"
-               BlueprintName = "UIScrollViewTests"
-               ReferencedContainer = "container:UIScrollView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4483FF4191DF0B0008CFA82"
-               BuildableName = "ScrollViewTests.xctest"
-               BlueprintName = "ScrollViewTests"
-               ReferencedContainer = "container:../ScrollView/ScrollView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4134D4E191A466C00833B10"
-            BuildableName = "UIScrollView.app"
-            BlueprintName = "UIScrollView"
-            ReferencedContainer = "container:UIScrollView.xcodeproj">
+            BlueprintIdentifier = "A44809EE191DFD7000BDC252"
+            BuildableName = "DelegateDemo"
+            BlueprintName = "DelegateDemo"
+            ReferencedContainer = "container:DelegateDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -71,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4134D4E191A466C00833B10"
-            BuildableName = "UIScrollView.app"
-            BlueprintName = "UIScrollView"
-            ReferencedContainer = "container:UIScrollView.xcodeproj">
+            BlueprintIdentifier = "A44809EE191DFD7000BDC252"
+            BuildableName = "DelegateDemo"
+            BlueprintName = "DelegateDemo"
+            ReferencedContainer = "container:DelegateDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -89,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4134D4E191A466C00833B10"
-            BuildableName = "UIScrollView.app"
-            BlueprintName = "UIScrollView"
-            ReferencedContainer = "container:UIScrollView.xcodeproj">
+            BlueprintIdentifier = "A44809EE191DFD7000BDC252"
+            BuildableName = "DelegateDemo"
+            BlueprintName = "DelegateDemo"
+            ReferencedContainer = "container:DelegateDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
