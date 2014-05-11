@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SnowFall/SnowFall.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MinutesToMidnight/MinutesToMidnight.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HitBrick/HitBrick.xcodeproj">
    </FileRef>
    <FileRef
