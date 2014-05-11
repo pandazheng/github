@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A411104F191F8C7B00B2600A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A411104E191F8C7B00B2600A /* Foundation.framework */; };
+		A4111051191F8C7B00B2600A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4111050191F8C7B00B2600A /* CoreGraphics.framework */; };
+		A4111053191F8C7B00B2600A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4111052191F8C7B00B2600A /* UIKit.framework */; };
+		A4111059191F8C7B00B2600A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4111057191F8C7B00B2600A /* InfoPlist.strings */; };
+		A411105B191F8C7B00B2600A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A411105A191F8C7B00B2600A /* main.m */; };
+		A411105F191F8C7B00B2600A /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A411105E191F8C7B00B2600A /* CMAppDelegate.m */; };
+		A4111062191F8C7B00B2600A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4111060191F8C7B00B2600A /* Main.storyboard */; };
+		A4111065191F8C7B00B2600A /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4111064191F8C7B00B2600A /* CMViewController.m */; };
+		A4111067191F8C7B00B2600A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4111066191F8C7B00B2600A /* Images.xcassets */; };
+		A411106E191F8C7B00B2600A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A411106D191F8C7B00B2600A /* XCTest.framework */; };
+		A411106F191F8C7B00B2600A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A411104E191F8C7B00B2600A /* Foundation.framework */; };
+		A4111070191F8C7B00B2600A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4111052191F8C7B00B2600A /* UIKit.framework */; };
+		A4111078191F8C7B00B2600A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4111076191F8C7B00B2600A /* InfoPlist.strings */; };
+		A411107A191F8C7B00B2600A /* CountMelnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4111079191F8C7B00B2600A /* CountMelnTests.m */; };
+		A4111088191F8CAD00B2600A /* backgroundPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A4111084191F8CAD00B2600A /* backgroundPattern.png */; };
+		A4111089191F8CAD00B2600A /* countMeInIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4111085191F8CAD00B2600A /* countMeInIcon.png */; };
+		A411108A191F8CAD00B2600A /* iconGreenAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = A4111086191F8CAD00B2600A /* iconGreenAdd.png */; };
+		A411108B191F8CAD00B2600A /* iconRedSubtract.png in Resources */ = {isa = PBXBuildFile; fileRef = A4111087191F8CAD00B2600A /* iconRedSubtract.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4111071191F8C7B00B2600A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4111043191F8C7B00B2600A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A411104A191F8C7B00B2600A;
+			remoteInfo = CountMeln;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A411104B191F8C7B00B2600A /* CountMeln.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountMeln.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A411104E191F8C7B00B2600A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4111050191F8C7B00B2600A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4111052191F8C7B00B2600A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4111056191F8C7B00B2600A /* CountMeln-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountMeln-Info.plist"; sourceTree = "<group>"; };
+		A4111058191F8C7B00B2600A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A411105A191F8C7B00B2600A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A411105C191F8C7B00B2600A /* CountMeln-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountMeln-Prefix.pch"; sourceTree = "<group>"; };
+		A411105D191F8C7B00B2600A /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		A411105E191F8C7B00B2600A /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		A4111061191F8C7B00B2600A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4111063191F8C7B00B2600A /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
+		A4111064191F8C7B00B2600A /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		A4111066191F8C7B00B2600A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A411106C191F8C7B00B2600A /* CountMelnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountMelnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A411106D191F8C7B00B2600A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4111075191F8C7B00B2600A /* CountMelnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountMelnTests-Info.plist"; sourceTree = "<group>"; };
+		A4111077191F8C7B00B2600A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4111079191F8C7B00B2600A /* CountMelnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountMelnTests.m; sourceTree = "<group>"; };
+		A4111084191F8CAD00B2600A /* backgroundPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundPattern.png; sourceTree = "<group>"; };
+		A4111085191F8CAD00B2600A /* countMeInIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countMeInIcon.png; sourceTree = "<group>"; };
+		A4111086191F8CAD00B2600A /* iconGreenAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconGreenAdd.png; sourceTree = "<group>"; };
+		A4111087191F8CAD00B2600A /* iconRedSubtract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconRedSubtract.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4111048191F8C7B00B2600A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4111051191F8C7B00B2600A /* CoreGraphics.framework in Frameworks */,
+				A4111053191F8C7B00B2600A /* UIKit.framework in Frameworks */,
+				A411104F191F8C7B00B2600A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4111069191F8C7B00B2600A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A411106E191F8C7B00B2600A /* XCTest.framework in Frameworks */,
+				A4111070191F8C7B00B2600A /* UIKit.framework in Frameworks */,
+				A411106F191F8C7B00B2600A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4111042191F8C7B00B2600A = {
+			isa = PBXGroup;
+			children = (
+				A4111054191F8C7B00B2600A /* CountMeln */,
+				A4111073191F8C7B00B2600A /* CountMelnTests */,
+				A411104D191F8C7B00B2600A /* Frameworks */,
+				A411104C191F8C7B00B2600A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A411104C191F8C7B00B2600A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A411104B191F8C7B00B2600A /* CountMeln.app */,
+				A411106C191F8C7B00B2600A /* CountMelnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A411104D191F8C7B00B2600A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A411104E191F8C7B00B2600A /* Foundation.framework */,
+				A4111050191F8C7B00B2600A /* CoreGraphics.framework */,
+				A4111052191F8C7B00B2600A /* UIKit.framework */,
+				A411106D191F8C7B00B2600A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4111054191F8C7B00B2600A /* CountMeln */ = {
+			isa = PBXGroup;
+			children = (
+				A411105D191F8C7B00B2600A /* CMAppDelegate.h */,
+				A411105E191F8C7B00B2600A /* CMAppDelegate.m */,
+				A4111060191F8C7B00B2600A /* Main.storyboard */,
+				A4111063191F8C7B00B2600A /* CMViewController.h */,
+				A4111064191F8C7B00B2600A /* CMViewController.m */,
+				A4111066191F8C7B00B2600A /* Images.xcassets */,
+				A4111055191F8C7B00B2600A /* Supporting Files */,
+			);
+			path = CountMeln;
+			sourceTree = "<group>";
+		};
+		A4111055191F8C7B00B2600A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4111083191F8C9D00B2600A /* Resource */,
+				A4111056191F8C7B00B2600A /* CountMeln-Info.plist */,
+				A4111057191F8C7B00B2600A /* InfoPlist.strings */,
+				A411105A191F8C7B00B2600A /* main.m */,
+				A411105C191F8C7B00B2600A /* CountMeln-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4111073191F8C7B00B2600A /* CountMelnTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4111079191F8C7B00B2600A /* CountMelnTests.m */,
+				A4111074191F8C7B00B2600A /* Supporting Files */,
+			);
+			path = CountMelnTests;
+			sourceTree = "<group>";
+		};
+		A4111074191F8C7B00B2600A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4111075191F8C7B00B2600A /* CountMelnTests-Info.plist */,
+				A4111076191F8C7B00B2600A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4111083191F8C9D00B2600A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A4111084191F8CAD00B2600A /* backgroundPattern.png */,
+				A4111085191F8CAD00B2600A /* countMeInIcon.png */,
+				A4111086191F8CAD00B2600A /* iconGreenAdd.png */,
+				A4111087191F8CAD00B2600A /* iconRedSubtract.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A411104A191F8C7B00B2600A /* CountMeln */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A411107D191F8C7B00B2600A /* Build configuration list for PBXNativeTarget "CountMeln" */;
+			buildPhases = (
+				A4111047191F8C7B00B2600A /* Sources */,
+				A4111048191F8C7B00B2600A /* Frameworks */,
+				A4111049191F8C7B00B2600A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountMeln;
+			productName = CountMeln;
+			productReference = A411104B191F8C7B00B2600A /* CountMeln.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A411106B191F8C7B00B2600A /* CountMelnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4111080191F8C7B00B2600A /* Build configuration list for PBXNativeTarget "CountMelnTests" */;
+			buildPhases = (
+				A4111068191F8C7B00B2600A /* Sources */,
+				A4111069191F8C7B00B2600A /* Frameworks */,
+				A411106A191F8C7B00B2600A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4111072191F8C7B00B2600A /* PBXTargetDependency */,
+			);
+			name = CountMelnTests;
+			productName = CountMelnTests;
+			productReference = A411106C191F8C7B00B2600A /* CountMelnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4111043191F8C7B00B2600A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "panda zheng";
+				TargetAttributes = {
+					A411106B191F8C7B00B2600A = {
+						TestTargetID = A411104A191F8C7B00B2600A;
+					};
+				};
+			};
+			buildConfigurationList = A4111046191F8C7B00B2600A /* Build configuration list for PBXProject "CountMeln" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4111042191F8C7B00B2600A;
+			productRefGroup = A411104C191F8C7B00B2600A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A411104A191F8C7B00B2600A /* CountMeln */,
+				A411106B191F8C7B00B2600A /* CountMelnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4111049191F8C7B00B2600A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4111067191F8C7B00B2600A /* Images.xcassets in Resources */,
+				A4111059191F8C7B00B2600A /* InfoPlist.strings in Resources */,
+				A411108A191F8CAD00B2600A /* iconGreenAdd.png in Resources */,
+				A411108B191F8CAD00B2600A /* iconRedSubtract.png in Resources */,
+				A4111088191F8CAD00B2600A /* backgroundPattern.png in Resources */,
+				A4111062191F8C7B00B2600A /* Main.storyboard in Resources */,
+				A4111089191F8CAD00B2600A /* countMeInIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A411106A191F8C7B00B2600A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4111078191F8C7B00B2600A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4111047191F8C7B00B2600A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A411105F191F8C7B00B2600A /* CMAppDelegate.m in Sources */,
+				A411105B191F8C7B00B2600A /* main.m in Sources */,
+				A4111065191F8C7B00B2600A /* CMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4111068191F8C7B00B2600A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A411107A191F8C7B00B2600A /* CountMelnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4111072191F8C7B00B2600A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A411104A191F8C7B00B2600A /* CountMeln */;
+			targetProxy = A4111071191F8C7B00B2600A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4111057191F8C7B00B2600A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4111058191F8C7B00B2600A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4111060191F8C7B00B2600A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4111061191F8C7B00B2600A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4111076191F8C7B00B2600A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4111077191F8C7B00B2600A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A411107B191F8C7B00B2600A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A411107C191F8C7B00B2600A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A411107E191F8C7B00B2600A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountMeln/CountMeln-Prefix.pch";
+				INFOPLIST_FILE = "CountMeln/CountMeln-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A411107F191F8C7B00B2600A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountMeln/CountMeln-Prefix.pch";
+				INFOPLIST_FILE = "CountMeln/CountMeln-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4111081191F8C7B00B2600A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CountMeln.app/CountMeln";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountMeln/CountMeln-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CountMelnTests/CountMelnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4111082191F8C7B00B2600A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CountMeln.app/CountMeln";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountMeln/CountMeln-Prefix.pch";
+				INFOPLIST_FILE = "CountMelnTests/CountMelnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4111046191F8C7B00B2600A /* Build configuration list for PBXProject "CountMeln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A411107B191F8C7B00B2600A /* Debug */,
+				A411107C191F8C7B00B2600A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A411107D191F8C7B00B2600A /* Build configuration list for PBXNativeTarget "CountMeln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A411107E191F8C7B00B2600A /* Debug */,
+				A411107F191F8C7B00B2600A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4111080191F8C7B00B2600A /* Build configuration list for PBXNativeTarget "CountMelnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4111081191F8C7B00B2600A /* Debug */,
+				A4111082191F8C7B00B2600A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4111043191F8C7B00B2600A /* Project object */;
+}

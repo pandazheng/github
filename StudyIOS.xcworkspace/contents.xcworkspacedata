@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HitBrick/HitBrick.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CountMeln/CountMeln.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Bonfire/Bonfire.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ReactionTime/ReactionTime.xcodeproj">
    </FileRef>
    <FileRef
